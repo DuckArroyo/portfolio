@@ -1,0 +1,55 @@
+/*Global settings*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --Variable1:;
+    --Variable2:;
+    --Variable3:;
+  }
+/*Header and nav style*/
+header {
+    padding:;
+    background-color:;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
+    background-image: url(""); /*Add photo here*/
+    background-size: cover;
+    background-position: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.hero {
+    background-image: url(""); /*Add photo here*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+footer {
+    background: var(--primary-color);
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {}
+/* ------------- 768 ------------- */
+@media screen and (max-width: 768px) {}
