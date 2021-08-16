@@ -6,20 +6,29 @@
   }
   
   :root {
-    --Variable1:;
-    --Variable2:;
-    --Variable3:;
+    --Variable1: black;
+    --Variable2:rgba(255, 0, 0, .8);
+    --Variable3: red;
   }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .links ul {
+    list-style-type: none;
+  }
+
 /*Header and nav style*/
 header {
-    padding:;
-    background-color:;
+    padding: 0;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     background-attachment: fixed;
     background-position: 80%;
-    background-image: url(""); /*Add photo here*/
+    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
     background-size: cover;
     background-position: center;
     position: -webkit-sticky;
@@ -29,7 +38,19 @@ header {
 }
 
 .hero {
-    background-image: url(""); /*Add photo here*/
+    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+  }
+
+  body {
+    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,7 +62,8 @@ header {
   }
 
 footer {
-    background: var(--primary-color);
+    background: var(--Variable2);
+    border-radius: 15px;
     width: 100%;
     padding: 40px 35px;
     display: flex;
