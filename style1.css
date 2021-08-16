@@ -6,9 +6,9 @@
   }
   
   :root {
-    --Variable1: black;
+    --Variable1: rgb(0, 0, 0);
     --Variable2:rgba(255, 0, 0, .8);
-    --Variable3: red;
+    --Variable3: rgba(251, 255, 0, 0.76);
   }
 
   .links {
