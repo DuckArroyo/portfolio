@@ -32,6 +32,9 @@ body {
   color: var(--Variable3);
 }
 
+.nav ul {
+  color: var(--Variable3);
+}
 .nav ul li {
   background-color: var(--Variable1);
   color: var(--Variable3);
