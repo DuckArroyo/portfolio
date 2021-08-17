@@ -1,77 +1,113 @@
 /*Global settings*/
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  :root {
-    --Variable1: rgb(0, 0, 0);
-    --Variable2:rgba(255, 0, 0, .8);
-    --Variable3: rgba(251, 255, 0, 0.76);
-  }
-
-  .links {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .links ul {
-    list-style-type: none;
-  }
-
-/*Header and nav style*/
-header {
-    padding: 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background-attachment: fixed;
-    background-position: 80%;
-    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
-    background-size: cover;
-    background-position: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.hero {
-    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-  }
+:root {
+  --Variable1: rgba(0, 0, 0, 0.75);
+  --Variable2: rgba(255, 255, 255, 0.75);
+  --Variable3: rgb(255, 0, 0);
+}
 
-  body {
-    background-image: url("./Backgrounds/Background-01.svg"); /*Add photo here*/
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-  }
+/*Background image*/
+body {
+  background-image: url("./Backgrounds/gray_bg.png");
+  background-color: white;
+  background-position: center;
+  background-size: 85%;
+}
 
-footer {
-    background: var(--Variable2);
-    border-radius: 15px;
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between; 
-    flex-wrap: wrap;
+/*Navigation bar - I want to put it in the middle as a row*/
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.nav h1 {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+}
+
+.nav ul li {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+  border-radius: 15px;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+/*Projects section - I want to put it in the middle as a row under the other links*/
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.projects ul li {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+/*Links above should change this state to go between these sections.*/
+/*Abouts*/
+
+.about-short {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 25px;
+}
+
+.about-long {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 25px;
+}
+
+.five-year {
+  background-color: var(--Variable1);
+  color: var(--Variable3);
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 25px;
+  margin: 25px;
+}
+
+.footer1 {
+  background: var(--Variable2);
+  border-radius: 15px;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {}
+@media screen and (max-width: 980px) {
+}
 /* ------------- 768 ------------- */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+}
