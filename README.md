@@ -1,6 +1,6 @@
 ## Portfolio 1
 
- https://duckarroyo.github.io/portfolio/
+https://duckarroyo.github.io/challenge2/
 
 #Challenge 2
 GIVEN I need to sample a potential employee's previous work
