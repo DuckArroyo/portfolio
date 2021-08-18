@@ -9,6 +9,7 @@
   --Variable1: rgba(0, 0, 0, 0.75);
   --Variable2: rgba(255, 255, 255, 0.75);
   --Variable3: rgb(255, 0, 0);
+  --Variable4: rgb(255, 255, 255); /*Footer white text*/
 }
 
 /*Background image*/
@@ -23,80 +24,62 @@ body {
 /*TODO make change state of abouts, different pages?*/
 
 /*Navigation bar - I want to put it in the middle as a row*/
+h1 {
+  text-align: center;
+}
 .nav,
 .projects {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
-/*!I think the line above duplicated the function right below. Ask instructor*/
-/*Alings the project links in a row. now make it flex wrap*/
-.links {
+.nav div1,
+.projects div1 {
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
-/*!Originally had nav ul and links ul together*/
-
-.links ul {
+  flex-wrap: wrap;
   background-color: var(--Variable2);
   color: var(--Variable3);
-  border-color: red;
-  border-style: solid;
   border-radius: 15px;
-  margin: 25px;
-  padding: 40px 35px;
-  display: flex;
-}
-/*Gives space to links*/
-.links li {
   padding: 40px;
-  list-style-type: none;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
 }
 
 /*Links above should change this state to go between these sections.*/
 /*Abouts*/
 
-.about-short {
-  background-color: var(--Variable2);
-  color: var(--Variable3);
-  border-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 25px;
-  margin: 25px;
-}
-
-.about-long {
-  background-color: var(--Variable2);
-  color: var(--Variable3);
-  border-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 25px;
-  margin: 25px;
-}
-
+.about-short,
+.about-long,
 .five-year {
   background-color: var(--Variable2);
   color: var(--Variable3);
   border-radius: 15px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   padding: 25px;
   margin: 25px;
 }
 
+.about-short h2,
+.about-long h2,
+.five-year h2,
+.five-year h3 {
+  text-align: center;
+}
+
+.about-short p,
+.about-long p,
+.five-year p {
+  text-align: justify;
+}
+
 .footer1 {
   background: var(--Variable1);
-  border-radius: 15px;
+  color: var(--Variable4);
+  /*border-radius: 15px;*/
   width: 100%;
-  padding: 40px 35px;
+  padding: 20px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
