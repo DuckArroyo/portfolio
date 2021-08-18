@@ -12,6 +12,11 @@
   --Variable4: rgb(255, 255, 255); /*Footer white text*/
 }
 
+/*!Removes default blue color, allows new color*/
+a {
+  color: inherit;
+}
+
 /*Background image*/
 body {
   background-image: url("./Backgrounds/gray_bg.png");
