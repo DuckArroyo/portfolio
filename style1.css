@@ -7,30 +7,49 @@
 
 :root {
   --Variable1: rgba(0, 0, 0, 0.75);
-  --Variable2: rgba(255, 255, 255, 0.75);
-  --Variable3: rgb(255, 0, 0);
-  --Variable4: rgb(255, 255, 255); /*Footer white text*/
+  --Variable2: rgba(255, 255, 255, 0.85);
+  --Variable3: rgb(0, 0, 0); /*Page text*/
+  --Variable4: rgba(43, 41, 41, 0.5); /*Footer white text*/
+  --Roundborder: border-radius: 25px;
 }
 
 /*!Removes default blue color, allows new color*/
 a {
   color: inherit;
+  padding: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'fantasy';
+}
+h3 {
+  font-size: 22px;
+  font-family: 'fantasy';
+}
+/*!Removes bullets from list in navigation buttons*/
+li {
+  list-style-type: none;
 }
 
 /*Background image*/
 body {
-  background-image: url("./Backgrounds/gray_bg.png");
+  background-image: url("./Backgrounds/bw_bg.png");
   background-color: white;
   background-position: center;
-  background-size: 85%;
+  background-size: 100%;
 }
 /*TODO Aling the project above repo link*/
 /*TODO Make Project/Repo links flex wrap*/
 /*TODO make change state of abouts, different pages?*/
 
 /*Navigation bar - I want to put it in the middle as a row*/
-h1 {
-  text-align: center;
+section {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .nav,
 .projects {
@@ -42,9 +61,10 @@ h1 {
 .projects div1 {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   background-color: var(--Variable2);
   color: var(--Variable3);
-  border-radius: 15px;
+  border-radius: var(--Roundborder);;
   padding: 40px;
 }
 
@@ -54,39 +74,59 @@ div {
 }
 
 /*Links above should change this state to go between these sections.*/
-/*Abouts*/
-
-.about-short,
-.about-long,
-.five-year {
-  background-color: var(--Variable2);
+/*About nav buttons*/
+/*!In theory I want these buttons to change the entire section*/
+.buttons {
+  justify-content: space-evenly;
+  padding: 40px;
+  background: var(--Variable2);
   color: var(--Variable3);
-  border-radius: 15px;
-  padding: 25px;
-  margin: 25px;
+  border-radius: var(--Roundborder);
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.about-short h2,
-.about-long h2,
-.five-year h2,
-.five-year h3 {
+.buttons ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*Abouts*/
+
+#about-short,
+#about-long,
+#five-year {
+  background-color: var(--Variable2);
+  color: var(--Variable3);
+  border-radius: var(--Roundborder);
+  padding: 25px;
+  margin: 100px;
+}
+
+#about-short h2,
+#about-long h2,
+#five-year h2,
+#five-year h3 {
   text-align: center;
 }
 
-.about-short p,
-.about-long p,
-.five-year p {
+#about-short p,
+#about-long p,
+#five-year p {
   text-align: justify;
+  font-size: 18px;
+  font-family: 'Verdana';
 }
 
-.footer {
-  background: var(--Variable1);
-  color: var(--Variable4);
+.footer1 {
+  background: var(--Variable4);
+  color: var(--Variable2);
   /*border-radius: 15px;*/
   width: 100%;
   padding: 20px 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   font-size: x-large;
