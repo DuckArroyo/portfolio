@@ -12,6 +12,17 @@
   --Variable4: rgba(43, 41, 41, 0.5); /*Footer white text*/
   --Roundborder: border-radius: 25px;
 }
+/*pseudo-classes*/
+/*pseudo-classes*/
+/*pseudo-classes*/
+a:hover {
+  color: red;
+  font-size: 28px;
+}
+
+/*pseudo-classes*/
+/*pseudo-classes*/
+/*pseudo-classes*/
 
 /*!Removes default blue color, allows new color*/
 a {
