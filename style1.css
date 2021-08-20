@@ -47,7 +47,7 @@ li {
 /*Background image*/
 body {
   background-image: url("./Backgrounds/F_Background2.png");
-  background-color: white;
+  background-color: black;
   background-position: center;
   background-size: 100%;
 }
@@ -59,11 +59,14 @@ body {
 section {
   margin-top: 100px;
   margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
-.nav,
-.projects {
+.nav div,
+.projects div {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   background-color: var(--Variable2);
@@ -72,8 +75,8 @@ section {
   padding: 20px;
 }
 
-.nav div,
-.projects div {
+div {
+  flex-direction: column;
   text-align: center;
 }
 
