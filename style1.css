@@ -7,10 +7,9 @@
 
 :root {
   --Variable1: rgba(0, 0, 0, 0.75);
-  --Variable2: rgba(255, 255, 255, 0.85);
+  --Variable2: rgba(255, 255, 255, 0.55);
   --Variable3: rgb(0, 0, 0); /*Page text*/
   --Variable4: rgba(43, 41, 41, 0.5); /*Footer white text*/
-  --Roundborder: border-radius: 25px;
 }
 /*pseudo-classes*/
 /*pseudo-classes*/
@@ -19,7 +18,6 @@ a:hover {
   color: red;
   font-size: 28px;
 }
-
 /*pseudo-classes*/
 /*pseudo-classes*/
 /*pseudo-classes*/
@@ -35,11 +33,11 @@ a {
 
 h2 {
   font-size: 24px;
-  font-family: 'fantasy';
+  font-family: "fantasy";
 }
 h3 {
   font-size: 22px;
-  font-family: 'fantasy';
+  font-family: "fantasy";
 }
 /*!Removes bullets from list in navigation buttons*/
 li {
@@ -48,7 +46,7 @@ li {
 
 /*Background image*/
 body {
-  background-image: url("./Backgrounds/bw_bg.png");
+  background-image: url("./Backgrounds/F_Background2.png");
   background-color: white;
   background-position: center;
   background-size: 100%;
@@ -62,25 +60,20 @@ section {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .nav,
 .projects {
   display: flex;
-  justify-content: space-around;
-}
-
-.nav div1,
-.projects div1 {
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: var(--Variable2);
   color: var(--Variable3);
-  border-radius: var(--Roundborder);;
-  padding: 40px;
+  border-radius: 25px;
+  padding: 20px;
 }
 
-div {
-  padding: 20px;
+.nav div,
+.projects div {
   text-align: center;
 }
 
@@ -92,7 +85,7 @@ div {
   padding: 40px;
   background: var(--Variable2);
   color: var(--Variable3);
-  border-radius: var(--Roundborder);
+  border-radius: 25px;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -110,8 +103,8 @@ div {
 #five-year {
   background-color: var(--Variable2);
   color: var(--Variable3);
-  border-radius: var(--Roundborder);
-  padding: 25px;
+  border-radius: 25px;
+  padding: 40px;
   margin: 100px;
 }
 
@@ -127,7 +120,7 @@ div {
 #five-year p {
   text-align: justify;
   font-size: 18px;
-  font-family: 'Verdana';
+  font-family: "Verdana";
 }
 
 .footer1 {
