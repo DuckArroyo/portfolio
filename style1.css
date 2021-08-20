@@ -61,10 +61,6 @@ section {
   margin-bottom: 100px;
   margin-left: 150px;
   margin-right: 150px;
-}
-
-.nav div,
-.projects div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -75,9 +71,12 @@ section {
   padding: 20px;
 }
 
-div {
+.nav div,
+.projects div {
   flex-direction: column;
   text-align: center;
+
+  align-content: center;
 }
 
 /*Links above should change this state to go between these sections.*/
