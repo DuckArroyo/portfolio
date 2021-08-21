@@ -39,6 +39,23 @@ h3 {
   font-size: 22px;
   font-family: "fantasy";
 }
+
+#me {
+  align-items: center;
+}
+
+#me div h1 {
+  font-size: 48px;
+}
+
+#me div h2 {
+  font-size: 36px;
+}
+
+#me div img {
+  border-radius: 15px;
+}
+
 /*!Removes bullets from list in navigation buttons*/
 li {
   list-style-type: none;
@@ -126,17 +143,20 @@ section {
 }
 
 .footer1 {
-  background: var(--Variable4);
-  color: var(--Variable2);
   /*border-radius: 15px;*/
   width: 100%;
-  padding: 20px 15px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   font-size: x-large;
   font-family: "Franklin Gothic Medium";
+}
+
+.footer1 img,
+.footer div {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
