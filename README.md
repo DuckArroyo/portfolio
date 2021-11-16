@@ -1,46 +1,48 @@
-## Portfolio 1
+# Project name
 
-https://duckarroyo.github.io/challenge2/
+![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
 
-#Challenge 2
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+UO Coding bootcamp [Project name]
 
-##Grading Requirements
-#This challenge is graded based on the following criteria:
+# Links
 
-#Technical Acceptance Criteria: 40%
-Satisfies all of the preceding acceptance criteria.
-Deployment: 32%
-Application deployed at live URL.
+## Deployed application Heroku
 
-Application loads with no errors.
+Github Pages [Link](https://duckarroyo.github.io/challenge2/)
 
-Application GitHub URL submitted.
+Github Repository [Link](https://github.com/DuckArroyo/challenge2)
 
-GitHub repository contains application code.
+Heroku [Link](https://sleepy-caverns-39452.herokuapp.com//)
 
-#Application Quality: 15%
-Application resembles the mock-up functionality provided in the Challenge instructions.
+# Description
+Challenge two is a portfolio file. In this project we are collecting the various projects we are working on and providing access to the projects we would like to highlight. This is a no JS project.
 
-#Repository Quality: 13%
-Repository has a unique name.
+# Project Guidelines/Requirements
 
-Repository follows best practices for file structure and naming conventions.
+Create a project that highlights your bootcamp work.
 
-Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+## Required installations for code duplication
 
-Repository contains multiple descriptive commit messages.
+There are no dependencies or installations for this project. The link to the live page is above.
 
-Repository contains quality readme with description, screenshot, link to deployed application.
+## Run server
+
+None
+
+## database and seeds need to be completed
+
+None
+
+# Contributions by:
+
+DeveloperDuckArroyo
+
+GitHub [GitHub](https://github.com/DuckArroyo)
+
+Twitter [@DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+
+LinkeIn [Rafael Arroyo](https://www.linkedin.com/in/duckarroyo/)
+
+# Screnshots
+
+<img src="./.png" style="width: 400px">
