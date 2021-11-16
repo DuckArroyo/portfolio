@@ -29,6 +29,7 @@ a {
   text-align: center;
   font-size: 26px;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 h1 {
@@ -96,11 +97,16 @@ section {
   padding: 20px;
 }
 
-.nav div,
-.projects div {
+.nav {
+  padding: 10px;
+}
+
+.nav,
+.projects {
   flex-direction: column;
   text-align: center;
   align-content: center;
+  background-color: var(--Variable2);
 }
 
 .top {
