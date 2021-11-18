@@ -1,125 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADg3dwABJ/uABjH5wDs+vwABp3xAPb47QBSWFAACD5eAPb08wCA4fwA+PTzADfW+AAUyPwAU7zgAPf5+QDk4+UA+fn5AEKszACqp6kAZd/3AITw/AAMtegA6+vrANz3/QAqxfwA2/r9AAGb7AAw0/kAWLPPANzh4AD09PQA9+36APr17gA41fYAI7/rAPf5+gCnp6oA/PnxAK7v8ADg7OYAOtf8ADC54gD8+PcA5ubmAGTd+wDS1NUA6OfpAODw+wDs6ukA5u37AG7n9QBv4f4AY19dANXZ5ADx6+wA7+/vAKvb9AAVxewAR8PlAPfz8gAx2foA9Pf1AOHh4QD48vgA4+HhABnH8gD59vIA+Pj4ABHR/gA23/oANeD9AJDe9QBG0f0AEqvwAOrq6gBG1/0A7e7kACbY+ADc3NwAN8P4AOj5/ABe1+sAMdL4APPz8wB+4PwA8/bzAPn39gD4+/kAFtP8APr8/AAgyfkA/Pz8AIKGgQDU+f0ASd31AO7u7gBR1vsAdOb9ADLU9gDz9vQA4ODgANni7wD19vQAOtH2AMvRzwD58/QA9/f3ABnF9wD69vQA+ff3AFu91QBZW10A/fv6AGTi+wDDvrsA6enpANn5/gAg1/cAJtX6ANvb2wBz4vsATdz8AOf1+wAAo+QA8+7vAGvF5AAv1vQA8vLyAPH0+ADm5OQA/Pf4ADzZ/QD7+/sA/fv7ALfo+gDS/P8ACL3qAG7d/wBxd3IA7e3tACDY+wBG4/cA7fDtADm98gDt+PMA8PP2AN/f3wD1+ucAbWBkAPX29gD29vYAOtT4APf4/AB5hoQAA7frADrb+wDo6OgARdjyAFfM8gAr0fAAL8f2ACau0ADz7e4A8fHxADHO+QBW1fsA6/f6AHLI3QDH8v4AIr7lAACw6QD59fQAFcz0AHbL3QDl4+MANtv8APz29wD6+voAZd34AAax9QAixfoAIMj6AGfi/gBdx+QAbOH7ACjP9ADd+P4ASN78AE9PTwDy8+8ANc/0APP08gD19fUASL30APv27wD5+PUA9/n4AD3X8QD9+PUA6efnANLb3wDg9PwA2f7/APDw8ADu9PMAxO79AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlRfJKUS0GFo5AreGL82mkV2fQbOaSQQaAXuqiLlnylN0oEULPCF+r5vFXnFRu4cFEQx1G1KkT4/BnmEzExVuMWtNdmKMKEtgLHgJVLZ5RqcNWLWhfZelMhS4vp2yjYOtzDioHwMHqYk6HLpHrEgiUJAwJSdolMgZNYo0k2UmesNVTICYEpl8Qy1cBiMdvXDAP45XDg68rsQubyRZD2xWwMBfwEOWsZyEkos3sUqFY6sQc7E3sVs+an9DhBCxAD2rZmY2PrFDEBBbyxCBY3Iqq6sqokB3f0MQWxBkgj3GO6urCrDHTnNTsRBDQ7Erv1YICqtpbTcWFl+cKzejHkLCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" 
-    rel="icon" 
-    type="image/x-icon"/>
-    <link rel="stylesheet" href="./stylesheet.css"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer DuckArroyo</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAADg3dwABJ/uABjH5wDs+vwABp3xAPb47QBSWFAACD5eAPb08wCA4fwA+PTzADfW+AAUyPwAU7zgAPf5+QDk4+UA+fn5AEKszACqp6kAZd/3AITw/AAMtegA6+vrANz3/QAqxfwA2/r9AAGb7AAw0/kAWLPPANzh4AD09PQA9+36APr17gA41fYAI7/rAPf5+gCnp6oA/PnxAK7v8ADg7OYAOtf8ADC54gD8+PcA5ubmAGTd+wDS1NUA6OfpAODw+wDs6ukA5u37AG7n9QBv4f4AY19dANXZ5ADx6+wA7+/vAKvb9AAVxewAR8PlAPfz8gAx2foA9Pf1AOHh4QD48vgA4+HhABnH8gD59vIA+Pj4ABHR/gA23/oANeD9AJDe9QBG0f0AEqvwAOrq6gBG1/0A7e7kACbY+ADc3NwAN8P4AOj5/ABe1+sAMdL4APPz8wB+4PwA8/bzAPn39gD4+/kAFtP8APr8/AAgyfkA/Pz8AIKGgQDU+f0ASd31AO7u7gBR1vsAdOb9ADLU9gDz9vQA4ODgANni7wD19vQAOtH2AMvRzwD58/QA9/f3ABnF9wD69vQA+ff3AFu91QBZW10A/fv6AGTi+wDDvrsA6enpANn5/gAg1/cAJtX6ANvb2wBz4vsATdz8AOf1+wAAo+QA8+7vAGvF5AAv1vQA8vLyAPH0+ADm5OQA/Pf4ADzZ/QD7+/sA/fv7ALfo+gDS/P8ACL3qAG7d/wBxd3IA7e3tACDY+wBG4/cA7fDtADm98gDt+PMA8PP2AN/f3wD1+ucAbWBkAPX29gD29vYAOtT4APf4/AB5hoQAA7frADrb+wDo6OgARdjyAFfM8gAr0fAAL8f2ACau0ADz7e4A8fHxADHO+QBW1fsA6/f6AHLI3QDH8v4AIr7lAACw6QD59fQAFcz0AHbL3QDl4+MANtv8APz29wD6+voAZd34AAax9QAixfoAIMj6AGfi/gBdx+QAbOH7ACjP9ADd+P4ASN78AE9PTwDy8+8ANc/0APP08gD19fUASL30APv27wD5+PUA9/n4AD3X8QD9+PUA6efnANLb3wDg9PwA2f7/APDw8ADu9PMAxO79AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlRfJKUS0GFo5AreGL82mkV2fQbOaSQQaAXuqiLlnylN0oEULPCF+r5vFXnFRu4cFEQx1G1KkT4/BnmEzExVuMWtNdmKMKEtgLHgJVLZ5RqcNWLWhfZelMhS4vp2yjYOtzDioHwMHqYk6HLpHrEgiUJAwJSdolMgZNYo0k2UmesNVTICYEpl8Qy1cBiMdvXDAP45XDg68rsQubyRZD2xWwMBfwEOWsZyEkos3sUqFY6sQc7E3sVs+an9DhBCxAD2rZmY2PrFDEBBbyxCBY3Iqq6sqokB3f0MQWxBkgj3GO6urCrDHTnNTsRBDQ7Erv1YICqtpbTcWFl+cKzejHkLCIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" 
+  rel="icon" 
+  type="image/x-icon"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stylesheet.css"/>
 </head>
 <body>
-    <nav class="nav">
-            <a href="https://www.linkedin.com/in/duckarroyo/" target="_blank">Linked In</a>
-            <a href="http://DuckArroyo.github.io" target="_blank">Git Hub</a>
-            <a href="https://twitter.com/DevDuckArroyo" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/wickdduck/" target="_blank">Instagram</a>
-    </nav>
-<Section id="me">
-    <Div>
-        <h1>Rafael Arroyo</h1>
-        <h2>Web developer</h2>
-    </Div>
-    <div>
-        <img src="./Backgrounds/Rafael Arroyo.jpg" alt="Rafael Arroyo headshot">
-    </div>
-</Section>
-
-    <!--Header-->
-
-
-    <!--Hero-->
-<section class="projects">
-<!--Project #---------------------------------->
-    <div>
-        <img src="./Backgrounds/Hex_AccentLeft.png" alt="" class="top">
-        <br>
-        <a href="https://duckarroyo.github.io/passwordgenerator/" target="_blank"><b>Password Generator</b></a>
-        <br>
-        <a href="https://github.com/DuckArroyo/passwordgenerator" target="_blank">Repository</a>
-    </div>
-
-<!--Project #---------------------------------->
-    <div>
-        <img src="./Backgrounds/Hex_AccentLeft.png" alt="" class="normal"/>
-        <br>
-        <a href="https://duckarroyo.github.io/Run-Buddy-2.0/" target="_blank"><b>Run Buddy 2.0</b></a>
-        <br>
-        <a href="https://github.com/DuckArroyo/Run-Buddy-2.0" target="_blank">Repository</a>
-    </div>
-
-<!--Project #---------------------------------->
-    <div>
-        <img src="./Backgrounds/Hex_AccentLeft.png" alt="" class="normal"/>
-        <br>
-        <a href=" https://duckarroyo.github.io/Run-buddy/" target="_blank"><b>Run Buddy 1.0</b></a>
-        <br>
-        <a href="https://github.com/DuckArroyo/Run-buddy" target="_blank">Repository</a>
-    </div>
-
-<!--Project #---------------------------------->
-    <div>
-        <img src="./Backgrounds/Hex_AccentRight.png" alt="" class="normal"/>
-        <br>
-        <a href="https://duckarroyo.github.io/Challenge1/" target="_blank"><b>Week 1 Challenge</b></a>
-        <br>
-        <a href="https://github.com/DuckArroyo/Challenge1" target="_blank">Repository</a>
-    </div>    
-
-    <!--Project #---------------------------------->
-    <div>
-        <img src="./Backgrounds/Hex_AccentRight.png" alt="" class="normal"/>
-        <br>
-        <a href="https://duckarroyo.github.io/robot-gladiators/" target="_blank"><b>Robot Gladiators</b></a>
-        <br>
-        <a href="https://github.com/DuckArroyo/robot-gladiators" target="_blank">Repository</a>
-    </div>      
-</section>
-
-<div class="buttons">
-        <!-- Unordered list element -->
-        <ul>
-            <!-- List item element-->
-            <li>
-                <!-- Anchor element -->
-                <a href="./index.html#about-short">Short about me</a>
-            </li>
-            <li>
-                <a href="./index2.html#about-long">More about me</a>
-            </li>
-            <li>
-                <a href="./index3.html#five-year">Five year plan</a>
-            </li>
-        </ul>
-</div>
-
-<section id="about-short">
-    <h2>About me</h2>
-    <p> 
-        Hello, my name is Rafael Arroyo, and I am a web development student at the University of Oregon. I am starting a YouTube channel in 2022. Love and enjoy the Pacific Northwest #UpperLeftUSA. For the past 6 years I have been playing the game Ingress where I slay the competition.
-        <br>
-        <img src="./Backgrounds/trees_accent.png" alt="Tree image, place holder" style="width: 100%; height: auto;">
-    </p>
-</section>
-
-    <!--Footer-->
-<section class="footer">
-        <div class="footer1">
-            <div>
-                <img src="./Backgrounds/hex_accent.png" alt="Accent Logo" style="height:200px;">
-            </div>
-            <div>Created by Duck Arroyo
-                <br>
-                Pacific Northwest, Upper Left USA.
-                <br>
-                Other relevant information
-            </div>
-            <div>
-                <img src="./Backgrounds/DuckLogo.png" alt="Duck Logo" style="height:200px;">
-            </div>
-        </div>
-</section>
-
+  
 </body>
 </html>
+
+<div class="hero">
+  <p>Think inside the <span>box</span></p>
+  <h1>Developer<span>Duck</span></h1>
+  <p>I <strong>Design</strong> and <strong>Develope Awesome</strong> stuff</p>
+</div>
+
+<nav class="nav">
+  <a href="https://www.linkedin.com/in/duckarroyo/" target="_blank">Linked In</a>
+  <a href="http://DuckArroyo.github.io" target="_blank">Git Hub</a>
+  <a href="https://twitter.com/DevDuckArroyo" target="_blank">Twitter</a>
+  <a href="https://www.instagram.com/wickdduck/" target="_blank">Instagram</a>
+  <a href="https://codepen.io/DeveloperDuckArroyo" target="_blank">CodePen</a>
+
+</nav>
+
+<div class="projects">
+  <div class="project">
+    <h2>Project 1</h2>
+    <a href="https://sleepy-caverns-39452.herokuapp.com" target="_blank"><b>WickedBlogs</b></a>
+<br>
+<a href="https://github.com/DuckArroyo/wickedblogs" target="_blank">Repository</a>
+    <p>
+      This project focused on developing a full stack webpage. In this case I created a blog page where users can create an account and submit blog entries.
+    </p>
+  </div>
+
+  <div class="project">
+    <h2>Project 2</h2>
+    <a href="" target="_blank"><b>Project Name</b></a>
+    <br>
+    <a href="" target="_blank">Repository</a>
+    <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+  </div>
+  <div class="project">
+    <h2>Project 3</h2>
+    <a href="" target="_blank"><b>Project Name</b></a>
+    <br>
+    <a href="" target="_blank">Repository</a>
+    <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+  </div>
+</div>
+
+<div class="projects">
+  <div class="project">
+    <h2>Project 4</h2>
+    <a href="" target="_blank"><b>Project Name</b></a>
+    <br>
+    <a href="" target="_blank">Repository</a>
+    <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+  </div>
+
+  <div class="project">
+    <h2>Project 5</h2>
+    <a href="" target="_blank"><b>Project Name</b></a>
+    <br>
+    <a href="" target="_blank">Repository</a>
+    <p>Maecenas id volutpat tellus. Praesent at rhoncus ante, non sollicitudin nisl.</p>
+  </div>
+  <div class="project">
+    <h2>Project 6</h2>
+    <a href="https://duckarroyo.github.io/Run-Buddy-2.0/" target="_blank"><b>Run Buddy 2.0</b></a>
+<br>
+<a href="https://github.com/DuckArroyo/Run-Buddy-2.0" target="_blank">Repository</a>
+    <p>Run Buddy was a the first project we were assigned and it focused on the learning the basics of HTML and CSS.</p>
+  </div>
+</div>
+
+<div class="about">
+
+  <div class="about-text">
+    <h2>About <span>Me</span></h2>
+    <p>
+      Hello, my name is Rafael Arroyo, and I am a web development student at the University of Oregon. I am starting a YouTube channel in 2022. Love and enjoy the Pacific Northwest #UpperLeftUSA. For the past 6 years I have been playing the game Ingress where I slay the competition.
+    </p>
+  </div>
+
+</div>

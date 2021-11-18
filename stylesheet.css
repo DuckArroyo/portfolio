@@ -1,191 +1,145 @@
-/*Global settings*/
+/* variables */
+:root {
+  --white: #fff;
+  --green: #0f9;
+  --black: #444;
+  --blackTransparent: rgba(68, 68, 68, 0.5);
+  --red: #ff0800;
+}
+a:link {
+  color: var(--red);
+  text-decoration: none;
+}
+/* Styles */
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
 }
 
-:root {
-  --Variable1: rgba(0, 0, 0, 0.75);
-  --Variable2: rgba(255, 255, 255, 0.55);
-  --Variable3: rgb(0, 0, 0); /*Page text*/
-  --Variable4: rgba(43, 41, 41, 0.5); /*Footer white text*/
-}
-/*pseudo-classes*/
-/*pseudo-classes*/
-/*pseudo-classes*/
-a:hover {
-  color: red;
-  font-size: 28px;
-}
-/*pseudo-classes*/
-/*pseudo-classes*/
-/*pseudo-classes*/
-
-/*!Removes default blue color, allows new color*/
-a {
-  color: inherit;
-  padding: 20px;
-  text-align: center;
-  font-size: 26px;
-  font-family: sans-serif;
-  text-decoration: none;
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+  font-size: 1.1rem;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 2rem;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  outline: 3px solid var(--white);
+  outline-offset: 0.25em;
+  display: inline-block;
+  margin: 0.25em 0 0.5em;
+}
+h1 span {
+  font-weight: 300;
 }
 
 h2 {
-  font-size: 24px;
-  font-family: "fantasy";
+  color: var(--red);
+  font-size: 1.6rem;
+  margin-bottom: 0.5em;
 }
+
 h3 {
-  font-size: 22px;
-  font-family: "fantasy";
+  font-size: 2rem;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  outline: 3px solid var(--black);
+  outline-offset: 0.25em;
+  display: inline-block;
+  margin: 0.25em 0 0.5em;
 }
 
-#me {
+p span {
+  color: var(--green);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7em 1.7em;
+  background: var(--green);
+  color: var(--black);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.nav :hover {
+  background: darken(var(--green), 10%);
+}
+
+.hero {
+  background-color: #444;
+  background-image: url("./photos/dogAndDuck.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 100vh;
+  padding: 1em;
+  color: var(--white);
+  /* Positioning */
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-}
-
-#me div h1 {
-  font-size: 48px;
-}
-
-#me div h2 {
-  font-size: 36px;
-}
-
-#me div img {
-  border-radius: 15px;
-  width: 200px;
-  height: 200px;
-}
-
-/*!Removes bullets from list in navigation buttons*/
-li {
-  list-style-type: none;
-}
-
-/*Background image*/
-body {
-  background-image: url("./Backgrounds/F_Background2.png");
-  background-color: black;
-  background-position: center;
-  background-size: 100%;
-}
-/*TODO Aling the project above repo link*/
-/*TODO Make Project/Repo links flex wrap*/
-/*TODO make change state of abouts, different pages?*/
-
-/*Navigation bar - I want to put it in the middle as a row*/
-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  background-color: var(--Variable2);
-  color: var(--Variable3);
-  border-radius: 25px;
-  padding: 20px;
+  justify-content: center;
 }
 
 .nav {
-  padding: 10px;
-}
-
-.nav,
-.projects {
-  flex-direction: column;
+  padding: 3vh 0;
   text-align: center;
-  align-content: center;
-  background-color: var(--Variable2);
-}
-
-.top {
-  min-width: 200px;
-  max-width: 250px;
-  flex-grow: 2;
-}
-
-.normal {
-  min-width: 50px;
-  max-width: 200px;
-  flex-shrink: 1;
-}
-
-/*Links above should change this state to go between these sections.*/
-/*About nav buttons*/
-/*!In theory I want these buttons to change the entire section*/
-.buttons {
-  justify-content: space-evenly;
-  padding: 40px;
-  background: var(--Variable2);
-  color: var(--Variable3);
-  border-radius: 25px;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-.buttons ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-/*Abouts*/
-
-#about-short,
-#about-long,
-#five-year {
-  background-color: var(--Variable2);
-  color: var(--Variable3);
-  border-radius: 25px;
-  padding: 40px;
-  margin: 100px;
-}
-
-#about-short h2,
-#about-long h2,
-#five-year h2,
-#five-year h3 {
-  text-align: center;
-}
-
-#about-short p,
-#about-long p,
-#five-year p {
-  text-align: justify;
-  font-size: 18px;
-  font-family: "Verdana";
-}
-
-.footer1 {
-  /*border-radius: 15px;*/
-  width: 100%;
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  font-size: x-large;
-  font-family: "Franklin Gothic Medium";
+  flex-direction: column;
 }
 
-.footer1 img {
-  margin-left: 40px;
-  margin-right: 40px;
+@media (min-width: 50rem) {
+  .nav {
+    flex-direction: row;
+  }
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 980px) {
+.projects {
+  padding: 6vh 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
-/* ------------- 768 ------------- */
-@media screen and (max-width: 768px) {
+
+@media (min-width: 50rem) {
+  .projects {
+    flex-direction: row;
+  }
+}
+
+.project {
+  flex-basis: 25%;
+}
+
+@media (min-width: 50rem) {
+  .project {
+    flex-basis: 30%;
+  }
+}
+
+.about {
+  background-image: url("./photos/rock2.jpg");
+  background-size: cover;
+  padding: 10vh 0;
+  color: var(--white);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-text {
+  flex-basis: 100%;
+  padding: 0 2em;
+  background-color: var(--blackTransparent);
+}
+
+@media (min-width: 50rem) {
+  .about-text {
+    flex-basis: 50%;
+  }
 }
