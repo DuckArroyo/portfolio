@@ -5,6 +5,7 @@
   --black: #444;
   --blackTransparent: rgba(68, 68, 68, 0.5);
   --red: #ff0800;
+  min-width: 540px;
 }
 a:link {
   color: var(--red);
