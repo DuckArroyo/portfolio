@@ -9,7 +9,6 @@
 }
 a:link {
   color: var(--red);
-  text-decoration: none;
 }
 /* Styles */
 * {
@@ -86,6 +85,9 @@ p span {
   justify-content: center;
 }
 
+.nav a {
+  text-decoration: none;
+}
 .nav {
   padding: 3vh 0;
   text-align: center;
