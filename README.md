@@ -1,20 +1,17 @@
-# Project name
-
 ![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
 
-UO Coding bootcamp [Project name]
+# UO Coding bootcamp - Portfolio
 
-# Links
+## Links
 
-## Deployed application Heroku
+Github [Page](https://duckarroyo.github.io/challenge2/)
 
-Github Pages [Link](https://duckarroyo.github.io/challenge2/)
+Github [Repository](https://github.com/DuckArroyo/challenge2)
 
-Github Repository [Link](https://github.com/DuckArroyo/challenge2)
-
-Heroku [Link](https://sleepy-caverns-39452.herokuapp.com//)
+CodePen [Link](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
 
 # Description
+
 Challenge two is a portfolio file. In this project we are collecting the various projects we are working on and providing access to the projects we would like to highlight. This is a no JS project.
 
 # Project Guidelines/Requirements
@@ -45,4 +42,8 @@ LinkeIn [Rafael Arroyo](https://www.linkedin.com/in/duckarroyo/)
 
 # Screnshots
 
-<img src="./.png" style="width: 400px">
+<img src="./photos/Portfolio1.png" style="width: 400px">
+
+<img src="./photos/Portfolio2.png" style="width: 400px">
+
+<img src="./photos/Portfolio3.png" style="width: 400px">
