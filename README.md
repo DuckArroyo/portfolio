@@ -34,11 +34,15 @@ None
 
 DeveloperDuckArroyo
 
-GitHub [GitHub](https://github.com/DuckArroyo)
+[Portfolio](https://duckarroyo.github.io/challenge2/)
 
-Twitter [@DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+[GitHub](https://github.com/DuckArroyo)
 
-LinkeIn [Rafael Arroyo](https://www.linkedin.com/in/duckarroyo/)
+[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+
+[LinkeIn](https://www.linkedin.com/in/duckarroyo/)
+
+[CodePen](https://codepen.io/DeveloperDuckArroyo)
 
 # Screnshots
 
