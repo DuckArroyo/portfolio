@@ -4,11 +4,11 @@
 
 ## Links
 
-Github [Page](https://duckarroyo.github.io/challenge2/)
+[Github Page](https://duckarroyo.github.io/portfolio)
 
-Github [Repository](https://github.com/DuckArroyo/challenge2)
+[Github Repository](https://github.com/DuckArroyo/portfolio)
 
-CodePen [Link](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
+[CodePen](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
 
 # Description
 
@@ -34,11 +34,19 @@ None
 
 DeveloperDuckArroyo
 
-GitHub [GitHub](https://github.com/DuckArroyo)
+[Email](mailto:DeveloperDuckArroyo@gmail.com)
 
-Twitter [@DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+[Portfolio](https://github.com/DuckArroyo/portfolio)
 
-LinkeIn [Rafael Arroyo](https://www.linkedin.com/in/duckarroyo/)
+[React Portfolio](http://DuckArroyo.github.io/reactPortfolio)
+
+[GitHub](https://github.com/DuckArroyo)
+
+[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+
+[LinkeIn](https://www.linkedin.com/in/duckarroyo)
+
+[CodePen](https://codepen.io/DeveloperDuckArroyo)
 
 # Screnshots
 
