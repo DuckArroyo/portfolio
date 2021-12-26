@@ -34,7 +34,6 @@ None
 
 DeveloperDuckArroyo
 
-<<<<<<< HEAD
 [Email](mailto:DeveloperDuckArroyo@gmail.com)
 
 [Portfolio](https://github.com/DuckArroyo/portfolio)
@@ -46,15 +45,6 @@ DeveloperDuckArroyo
 [Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
 
 [LinkeIn](https://www.linkedin.com/in/duckarroyo)
-=======
-[Portfolio](https://duckarroyo.github.io/challenge2/)
-
-[GitHub](https://github.com/DuckArroyo)
-
-[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
-
-[LinkeIn](https://www.linkedin.com/in/duckarroyo/)
->>>>>>> 938c5563447177313a1038a68d2175f35881588d
 
 [CodePen](https://codepen.io/DeveloperDuckArroyo)
 
