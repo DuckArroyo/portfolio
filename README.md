@@ -8,7 +8,7 @@
 
 [Github Repository](https://github.com/DuckArroyo/portfolio)
 
-[CodePen](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
+[CodePen version](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
 
 # Description
 
