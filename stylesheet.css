@@ -5,15 +5,15 @@
   --black: #444;
   --blackTransparent: rgba(68, 68, 68, 0.5);
   --red: #ff0800;
+  min-width: 540px;
 }
 a:link {
   color: var(--red);
-  text-decoration: none;
 }
 /* Styles */
 * {
   box-sizing: border-box;
-  margin-top: 0;
+  margin: 0;
 }
 
 body {
@@ -72,7 +72,7 @@ p span {
 
 .hero {
   background-color: #444;
-  background-image: url("./photos/dogAndDuck.jpg");
+  background-image: url("./photos/canyon.jpg");
   background-blend-mode: multiply;
   background-size: cover;
   height: 100vh;
@@ -85,6 +85,9 @@ p span {
   justify-content: center;
 }
 
+.nav a {
+  text-decoration: none;
+}
 .nav {
   padding: 3vh 0;
   text-align: center;
@@ -97,6 +100,15 @@ p span {
   .nav {
     flex-direction: row;
   }
+}
+
+.feature {
+  padding: 6vh 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0 10%;
 }
 
 .projects {

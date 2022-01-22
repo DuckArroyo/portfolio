@@ -1,20 +1,17 @@
-# Project name
-
 ![GitHublicense](https://img.shields.io/npm/l/express?style=for-the-badge)
 
-UO Coding bootcamp [Project name]
+# UO Coding bootcamp - Portfolio
 
-# Links
+## Links
 
-## Deployed application Heroku
+[Github Page](https://duckarroyo.github.io/portfolio)
 
-Github Pages [Link](https://duckarroyo.github.io/challenge2/)
+[Github Repository](https://github.com/DuckArroyo/portfolio)
 
-Github Repository [Link](https://github.com/DuckArroyo/challenge2)
-
-Heroku [Link](https://sleepy-caverns-39452.herokuapp.com//)
+[CodePen version](https://codepen.io/DeveloperDuckArroyo/pen/ZEJPRvJ)
 
 # Description
+
 Challenge two is a portfolio file. In this project we are collecting the various projects we are working on and providing access to the projects we would like to highlight. This is a no JS project.
 
 # Project Guidelines/Requirements
@@ -37,12 +34,24 @@ None
 
 DeveloperDuckArroyo
 
-GitHub [GitHub](https://github.com/DuckArroyo)
+[Email](mailto:DeveloperDuckArroyo@gmail.com)
 
-Twitter [@DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+[Portfolio](https://duckarroyo.github.io/portfolio/)
 
-LinkeIn [Rafael Arroyo](https://www.linkedin.com/in/duckarroyo/)
+[React Portfolio](https://peaceful-journey-85026.herokuapp.com/)
+
+[GitHub](https://github.com/DuckArroyo)
+
+[Twitter @DevDuckArroyo](https://twitter.com/DevDuckArroyo)
+
+[LinkedIn](https://www.linkedin.com/in/duckarroyo)
+
+[CodePen](https://codepen.io/DeveloperDuckArroyo)
 
 # Screnshots
 
-<img src="./.png" style="width: 400px">
+<img src="./photos/Portfolio1.png" style="width: 400px">
+
+<img src="./photos/Portfolio2.png" style="width: 400px">
+
+<img src="./photos/Portfolio3.png" style="width: 400px">
